@@ -1,0 +1,20 @@
+<html>
+  <head>
+      <title>article-two|pravin kumar</title>
+      <meta name="viewport" content="width-device-width,initialscale=1" />
+  </head>
+  <body>
+      <h2>Article-two</h2>
+      <div>
+          <a href='/'>Home</a>
+      </div>
+      <div>
+          Feb 24,2017
+      </div>
+      <div>
+          <p>This a paragaph in article two.</p>
+          <p>This a paragaph in article two.</p>
+          <p>This a paragaph in article two.</p>
+      </div>
+  </body>
+</html>
