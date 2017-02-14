@@ -10,11 +10,11 @@ app.get('/article-one',function(req,res){
 });
 
 app.get('/article-two',function(req,res){
-    res.sendText("Article two will be served here");
+    res.send("Article two will be served here");
 });
 
 app.get('/article-three',function(req,res){
-    res.sendText("Article three will be served here");
+    res.send("Article three will be served here");
 });
 
 app.get('/', function (req, res) {
