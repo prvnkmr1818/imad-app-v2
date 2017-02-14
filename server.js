@@ -6,15 +6,15 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/article-one',function(req,res){
-    res.send("Article three will be served here");
+    res.send("Article one will be served here");
 });
 
 app.get('/article-two',function(req,res){
     res.sendText("Article two will be served here");
 });
 
-app.get('/article-one',function(req,res){
-    res.sendText("Article one will be served here");
+app.get('/article-three',function(req,res){
+    res.sendText("Article three will be served here");
 });
 
 app.get('/', function (req, res) {
